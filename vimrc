@@ -23,7 +23,7 @@ set wc=<Tab>
 
 syn on
 syn sync fromstart
-colo zenburn
+colo jellybeans
 
 ino <C-S-CR> <C-O>O
 ino <C-CR> <C-O>o
