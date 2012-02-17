@@ -33,4 +33,13 @@ nno <kEnter> gg
 map <F1> <Esc>
 im <F1> <Esc>
 
+nm <Leader>t= :Tabularize assignment<CR>
+vm <Leader>t= :Tabularize assignment<CR>
+nm <Leader>t: :Tabularize /:<CR>
+vm <Leader>t: :Tabularize /:<CR>
+nm <Leader>t, :Tabularize /,<CR>
+vm <Leader>t, :Tabularize /,<CR>
+nm <Leader>tsp :Tabularize spaces<CR>
+vm <Leader>tsp :Tabularize spaces<CR>
+
 com! -range -register Y :<line1>,<line2>y <reg>
